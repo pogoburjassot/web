@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Gyms PokemonGO Burjassot</title>
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+              <nav>
+                <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                            <center>💖💙💛BURJA & CO💙💖💛</center>
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="#">GIMNASIOS</a></li>
+                    <li><a href="#">PARADAS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+              <div class="content">
+                      <p>
+                        Página creada por Kikoneta del grupo de WhatsApp <b>💖💙💛Burja & Co💙💖💛</b>, el único y original para jugar a Pokemon GO en Burjassot y sus alrededores.
+                      </p>
+                      <p>
+                        <b>Colaboradores:</b> Merilou, Marruvi, Adam, Nando y OrniGames
+                      </p>
+                      <p>
+                        <b>Patrocinadores de la web:</b> <a href="https://www.youtube.com/channel/UCeGuGqdiKEfh_VOkjmdd4xw">OrniGames</a>
+                      </p>
+            </div>
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
